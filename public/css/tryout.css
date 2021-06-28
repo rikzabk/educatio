@@ -1,0 +1,51 @@
+* {
+    font-family: Varela, sans-serif;
+}
+
+.navbar {
+    border-radius: 0 0 1rem 1rem;
+}
+
+.profile:focus {
+    box-shadow: none;
+}
+
+.container-fluid {
+    background-color: #f2f2f2;
+    padding-top: 8rem;
+    min-height: 100vh;
+    height: auto;
+}
+
+.card {
+    border-radius: 1.5rem;
+    border: none;
+}
+
+.btn-submit {
+    width: 50%;
+    font-size: 1rem;
+    color: #FFFFFF;
+
+    background: #FF7A00;
+    border-radius: 20px;
+}
+
+.view:focus, .edit:focus, .delete:focus {
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        box-shadow: none;
+    }
+
+    .btn-submit {
+        width: 100%;
+    }
+}

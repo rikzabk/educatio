@@ -1,0 +1,70 @@
+* {
+    font-family: Varela, sans-serif;
+}
+
+.accordion-button:focus {
+    background-color: transparent !important;
+    box-shadow: none;
+    color: black;
+    border-bottom: 1rem black;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: black;
+    box-shadow: none;
+    border-bottom: 1rem black;
+}
+
+.card-header {
+    background-color: transparent !important;
+    border-bottom: rem black;
+}
+
+.navbar {
+    border-radius: 0 0 1rem 1rem;
+}
+
+.profile:focus {
+    box-shadow: none;
+}
+
+.container-fluid {
+    background-color: #f2f2f2;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+    min-height: 100vh;
+    height: auto;
+}
+
+.card {
+    border-radius: 1.5rem;
+}
+
+.btn-submit {
+    width: 50%;
+    font-size: 1rem;
+    color: #FFFFFF;
+
+    background: #FF7A00;
+    border-radius: 20px;
+}
+
+.view:focus, .edit:focus, .delete:focus {
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        box-shadow: none;
+    }
+
+    .btn-submit {
+        width: 100%;
+    }
+}

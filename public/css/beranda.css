@@ -1,0 +1,85 @@
+* {
+    font-family: Varela, sans-serif;
+}
+
+img {
+    border-radius: 1.5rem !important;
+}
+
+.rounded-start {
+    border-bottom-left-radius: 1.5rem!important;
+    border-top-left-radius: 1.5rem!important;
+}
+
+.btn-banner {
+    width: 20%;
+    font-size: 1rem;
+    color: black;
+    border-color: #FF7A00;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.btn-banner-submit {
+    width: 20%;
+    font-size: 1rem;
+    color: white;
+    background: #FF7A00;
+    border-radius: 20px;
+}
+
+.btn-masuk {
+    color: black;
+    background: white;
+    border-radius: 20px;
+    border-color: #FF7A00;
+}
+.btn-daftar {
+    color: white;
+    background: #FF7A00;
+    border-radius: 20px;
+}
+
+.navbar {
+    border-radius: 0 0 1rem 1rem;
+}
+
+.profile:focus {
+    box-shadow: none;
+}
+
+.container-fluid {
+    background-color: #f2f2f2;
+    padding-top: 8rem;
+    min-height: 100vh;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.card {
+    border-radius: 1.5rem;
+    border: none;
+}
+
+.btn-submit {
+    width: 50%;
+    font-size: 1rem;
+    color: #FFFFFF;
+
+    background: #FF7A00;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        box-shadow: none;
+    }
+
+    .btn-submit {
+        width: 100%;
+    }
+}
