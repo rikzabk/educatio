@@ -18,10 +18,10 @@ class AutheController extends Controller
     {
         // cek auth
         if (auth()->guard('admin')->check()) {
-            return redirect()->back();
+            return redirect()->route('listAdmin');
         } else {
             if (auth()->guard('user')->check()) {
-                return redirect()->back();
+                return redirect()->route('home');
             }
             return view('login');
         }
